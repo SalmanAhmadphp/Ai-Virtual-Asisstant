@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+#logo{
+    width: 20vw;
+    
+}
+h1{
+    color: aliceblue;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+#name{
+    color: rgb(233, 14, 135);
+    font-size: 40px;
+}
+#va{
+    color: rgb(14, 226, 233);
+    font-size: 40px;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+#btn{
+    width: 30%;
+    background: linear-gradient(to right,rgb(207, 26, 111),rgb(21, 190, 219));
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow:1px 1px 8px rgb(207, 26, 111),1px 1px 8px rgb(21, 190, 219);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    
+}
+#btn:hover{
+    box-shadow:1px 1px 16px rgb(207, 26, 111),1px 1px 16px rgb(21, 190, 219);
+    letter-spacing: 2px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+@media screen and (max-width:455px){
+    
+    #logo{
+        width: 60vw;
+    }        
+h1{
+    color: aliceblue;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 48px;
+    padding: 44px;
+    margin: 22px 22px 0px ;
+}
+
+#btn{
+    width: 77%;
+    height: 32px;
+}
+}
